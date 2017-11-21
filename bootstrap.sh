@@ -14,6 +14,8 @@ git clone https://github.com/romanmashta/dotfiles.git
 
 cd ~/Sandbox/dotfiles
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/romanmashta/dotfiles/master/oh-my-zsh/install.sh)"
+
 ./brew.sh
 ./cask.sh
 ./dock.sh
