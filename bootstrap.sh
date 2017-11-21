@@ -24,3 +24,6 @@ yes | cp ./oh-my-zsh/.zshrc ~/.zshrc
 ./brew.sh
 ./cask.sh
 ./dock.sh
+
+#Open iterm
+open /Applications/iTerm.app
