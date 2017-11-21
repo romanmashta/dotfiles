@@ -13,3 +13,7 @@ dockutil --remove FaceTime
 dockutil --remove iTunes
 dockutil --remove iBooks
 dockutil --remove App\ Store
+
+dockutil --move 'Mail' --position 1
+dockutil --add /Applications/iTerm.app --position 2
+dockutil --add /Applications/Google\ Chrome.app/ --position 3

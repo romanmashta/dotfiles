@@ -14,3 +14,4 @@ cd ~/Sandbox/dotfiles
 
 ./brew.sh
 ./cask.sh
+./dock.sh
