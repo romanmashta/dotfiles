@@ -25,5 +25,5 @@ yes | cp ./oh-my-zsh/.zshrc ~/.zshrc
 ./cask.sh
 ./dock.sh
 
-#Open iterm
+#Open iTerm
 open /Applications/iTerm.app
