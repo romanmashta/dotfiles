@@ -904,6 +904,9 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # Bypass the annoyingly slow t.co URL shortener
 # defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
 
+# FN keys
+defaults write -g com.apple.keyboard.fnState -boolean true
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
