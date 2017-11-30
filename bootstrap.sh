@@ -11,10 +11,8 @@ brew install git
 
 #Clone dotfiles
 cd;
-mkdir -p ~/Sandbox
-cd ~/Sandbox
-git clone https://github.com/romanmashta/dotfiles.git
-cd ~/Sandbox/dotfiles
+git clone https://github.com/romanmashta/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
 
 #Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/romanmashta/dotfiles/master/oh-my-zsh/install.sh)"
@@ -24,6 +22,7 @@ yes | cp ./oh-my-zsh/.zshrc ~/.zshrc
 ./brew.sh
 ./cask.sh
 ./dock.sh
+#./macos
 
 #Open iTerm
 open /Applications/iTerm.app
